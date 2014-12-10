@@ -1,14 +1,20 @@
 
 class Bike
-	def initialize
+  def initialize
 	@broken = false #I think it's defining broken? as nil
-	end
-def broken?
+  end
+
+  def broken?
 	@broken
-end
+  end
 
-def break!
+  def break!
 	@broken = true
-end
-end
+  end
 
+  def fix!
+	@broken = false
+  end
+
+ 
+end
