@@ -1,4 +1,4 @@
-require 'docking_station'
+require_relative 'docking_station'
 
 describe DockingStation do 
 
