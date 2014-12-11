@@ -34,3 +34,12 @@ module BikeContainer
   def available_bikes
     bikes.reject {|bike| bike.broken? }
   end
+<<<<<<< HEAD
+=======
+
+  def accept(bike)
+    bike.fix!
+    dock(bike)
+  end
+end
+>>>>>>> 8a66eab2d711a1aa5e093a7905915775475e626f
